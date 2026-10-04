@@ -1,0 +1,13 @@
+PATCH UI/UX PEMINJAMAN KELAS — SOFT BLUE
+
+CARA PAKAI (TANPA PINDAH / INSTALL ULANG PROYEK):
+1. Backup folder proyek Anda terlebih dahulu.
+2. Ekstrak isi ZIP ini langsung ke ROOT folder proyek Laravel yang sekarang (folder yang berisi artisan dan composer.json).
+3. Saat diminta, pilih Replace/Timpa file yang ada.
+4. Buka terminal di folder proyek, lalu jalankan:
+   npm run build
+   php artisan optimize:clear
+5. Refresh browser dengan Ctrl + F5.
+
+ZIP ini hanya berisi 3 file UI yang perlu ditimpa; tidak menyertakan database, .env, vendor, node_modules, routes, atau backend.
+Pastikan folder proyek Anda sudah memiliki dependencies npm/composer yang diperlukan.
